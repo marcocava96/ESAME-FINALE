@@ -1,0 +1,127 @@
+/* Import the Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Reset dei margini e dei padding per tutti gli elementi */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  font-family: "Roboto", sans-serif;
+  background: #f0f0f0;
+  box-shadow: 10px 10px 30px #cbced1, -10px -10px 30px #ffffff;
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 10px #cbced1, -5px -5px 10px #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-right: 10px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-items li {
+  margin-left: 15px;
+}
+
+.nav-items li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 30px auto;
+}
+
+.neumorphic-form {
+  font-family: "Roboto", sans-serif;
+  background: #f0f0f0;
+  box-shadow: 10px 10px 30px #cbced1, -10px -10px 30px #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 20px;
+}
+
+/* Adjust the button styles */
+.neumorphic-button {
+  background: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin-top: 15px;
+  border-radius: 20px;
+}
+
+.neumorphic-button:hover {
+  box-shadow: 2px 2px 5px #cbced1, -2px -2px 5px #ffffff;
+}
+
+.neumorphic-button:active {
+  box-shadow: inset 2px 2px 5px #cbced1, inset -2px -2px 5px #ffffff;
+}
+

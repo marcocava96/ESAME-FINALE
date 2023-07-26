@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Autenticazione</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <div class="logo-container">
+        <img src="logo_copy.png" alt="Logo" class="logo" />
+      </div>
+      <ul class="nav-items">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Le tue Prenotazioni</a></li>
+      </ul>
+    </div>
+    <!-- NAVBAR END -->
+
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+      <!-- FORM -->
+      <form class="neumorphic-form">
+        <div class="container">
+          <!-- LOGO -->
+          <div class="logo-container">
+            <img src="logo_copy.png" alt="Logo" class="logo" />
+          </div>
+          <!-- LOGO END -->
+          <h1>Autenticazione</h1>
+          <!-- INPUT FIELD -->
+          <div class="input-container">
+            <label id="label_cod_cliente" for="cod_cliente"
+              >Inserisci il tuo codice cliente:</label
+            >
+            <input
+              id="cod_cliente"
+              name="cod_cliente"
+              placeholder="e.g. '1'"
+              required
+            />
+          </div>
+          <!-- INPUT FIELD -->
+
+          <!-- SUBMIT BUTTON-->
+          <button type="submit" class="neumorphic-button">Login</button>
+        </div>
+      </form>
+      <!-- FINE FORM -->
+    </div>
+    <!-- MAIN CONTAINER END -->
+  </body>
+  <script src="1_login.js"></script>
+</html>
